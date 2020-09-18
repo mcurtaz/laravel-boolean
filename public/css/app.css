@@ -61,3 +61,24 @@ header nav ul a {
   width: 100%;
 }
 
+footer {
+  display: flex;
+}
+
+footer > div {
+  width: calc(100% / 3);
+  padding: 15px;
+}
+
+footer > div ul {
+  list-style: none;
+}
+
+footer .left .footer-logo-wrapper {
+  text-align: center;
+}
+
+footer .left .footer-logo-wrapper img {
+  width: 60%;
+}
+
