@@ -1,1 +1,74 @@
-//
+// GLOBAL
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.auto-margin{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+// HEADER
+header{
+
+    // logo centrale
+    .logo-container{
+        padding: 30px 0;
+        text-align: center;
+
+        img[alt="logo"]{
+            width: 400px;
+        }
+    }
+
+    // link di navigazione
+    nav {
+        display: flex;
+        justify-content: space-around;
+
+        padding: 30px 20%;
+
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+
+            font-size: 25px;
+
+            color: black;
+        }
+    }
+
+}
+
+// SHOWCASES
+
+#cards-container{
+
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    h2{
+        padding: 20px 0 10px 10px;
+
+        color: #052d74;
+        text-transform: uppercase;
+        font-size: 30px;
+    }
+
+    .showcase{
+        display: flex;
+        flex-wrap: wrap;
+        
+        .card{
+            width: calc(100% / 3);
+            padding: 12px;
+
+            img{
+                width: 100%;
+            }
+        }
+    }
+}
