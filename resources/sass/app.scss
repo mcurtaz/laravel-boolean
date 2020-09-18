@@ -26,19 +26,25 @@ header{
 
     // link di navigazione
     nav {
-        display: flex;
-        justify-content: space-around;
-
+        
         padding: 30px 20%;
+        
+        ul{
+            list-style: none;
 
-        a{
-            text-decoration: none;
-            text-transform: uppercase;
+            display: flex;
+            justify-content: space-around;
 
-            font-size: 25px;
-
-            color: black;
+            a{
+                text-decoration: none;
+                text-transform: uppercase;
+    
+                font-size: 25px;
+    
+                color: black;
+            }
         }
+       
     }
 
 }
