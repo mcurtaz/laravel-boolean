@@ -1,24 +1,51 @@
 footer{
 
     display: flex;
+    justify-content: space-between;
+
+    h3{
+        font-size: 26px;
+        text-transform: uppercase;
+    }
 
     &>div{
-        width: calc(100% / 3);
+        width: calc(100% / 4);
         padding: 15px;
 
         ul{
             list-style: none;
+
+            a{
+                text-decoration: none;
+                color: #000;
+            }
+
+            li{
+                padding: 5px 0;
+                font-size: 21px;
+            }
         }
     }
 
-    .left .footer-logo-wrapper{
+    .left {
 
+
+        .footer-logo-wrapper{
+    
         text-align: center;
-
-        img {
-
+    
+        
+    
+         img {
+    
             width: 60%;
+    
+            }
+        }
 
+        ul li{
+            padding: 0;
         }
     }
+    
 }

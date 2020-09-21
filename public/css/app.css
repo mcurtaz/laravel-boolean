@@ -63,15 +63,31 @@ header nav ul a {
 
 footer {
   display: flex;
+  justify-content: space-between;
+}
+
+footer h3 {
+  font-size: 26px;
+  text-transform: uppercase;
 }
 
 footer > div {
-  width: calc(100% / 3);
+  width: calc(100% / 4);
   padding: 15px;
 }
 
 footer > div ul {
   list-style: none;
+}
+
+footer > div ul a {
+  text-decoration: none;
+  color: #000;
+}
+
+footer > div ul li {
+  padding: 5px 0;
+  font-size: 21px;
 }
 
 footer .left .footer-logo-wrapper {
@@ -80,5 +96,9 @@ footer .left .footer-logo-wrapper {
 
 footer .left .footer-logo-wrapper img {
   width: 60%;
+}
+
+footer .left ul li {
+  padding: 0;
 }
 
